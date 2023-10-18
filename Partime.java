@@ -1,7 +1,10 @@
 import java.util.Date;
 
-public class Partime extends Intern {
+class Partime extends Intern {
     private int hoursWorkedPerWeek;
+
+    public Partime() {
+    }
 
     public Partime(String lastName, String firstName, String IDNumber, Date birthDate, double hourlyRate, int hoursWorkedPerWeek) {
         super(lastName, firstName, IDNumber, birthDate, hourlyRate);
@@ -27,4 +30,3 @@ public class Partime extends Intern {
                 "\nMonthly Salary: " + monthlyEarning();
     }
 }
-

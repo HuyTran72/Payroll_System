@@ -1,12 +1,15 @@
 import java.util.Date;
 
-public class SDE extends Developer {
+class SDE extends Developer {
     public enum Level {
         I, II, III
     }
 
     private Level level;
     private Education education;
+
+    public SDE() {
+    }
 
     public SDE(String lastName, String firstName, String IDNumber, Date birthDate, Level level, Education education) {
         super(lastName, firstName, IDNumber, birthDate);

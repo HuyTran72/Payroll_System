@@ -12,6 +12,9 @@ abstract class Developer {
     private String IDNumber;
     private Date birthDate;
 
+    public Developer() {
+    }
+
     public Developer(String lastName, String firstName, String IDNumber, Date birthDate) {
         this.lastName = lastName;
         this.firstName = firstName;
